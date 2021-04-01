@@ -1,0 +1,71 @@
+body {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+
+
+.categoria{
+    background-color: darkgoldenrod;
+    width: 90%;
+    height: 50px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+   
+}
+
+
+
+.conten_menu{
+    background-color: coral;
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto ;
+    align-items: center;
+
+
+}
+
+
+.element{
+
+    background-color: blue;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    flex-direction: column;
+    
+    
+}
+
+.conten_img
+{
+    background-color: blueviolet;
+    width: auto;
+    height: auto;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.precio_item{
+
+    background-color: cyan;
+
+    width: auto;
+    height:80px;
+}
+
